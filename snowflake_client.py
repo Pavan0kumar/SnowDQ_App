@@ -1,5 +1,5 @@
 import streamlit as st
-from snowpark import Session
+from  snowflake.snowpark import Session
 import pandas as pd
 import json
 
