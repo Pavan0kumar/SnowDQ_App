@@ -1,5 +1,5 @@
 streamlit==1.26.0
-snowflake-snowpark-python
 snowflake-connector-python==3.0.3
+snowflake-connector-python snowflake-snowpark
 snowflake-sqlalchemy
 streamlit-extras
