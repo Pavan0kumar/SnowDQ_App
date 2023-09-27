@@ -1,6 +1,6 @@
 streamlit==1.26.0
 snowflake-connector-python==3.0.3
-snowflake.snowpark
+snowflake_snowpark_python==1.5.0
 streamlit-extras
 streamlit_extras.stylable_container
 streamlit_extras.switch_page_button
