@@ -1,4 +1,4 @@
-streamlit
+streamlit==1.26.0
 pandas==2.0.3
 snowflake-connector-python==3.1.0
 snowflake-snowpark-python==1.6.1
