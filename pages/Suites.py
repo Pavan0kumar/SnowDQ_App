@@ -83,7 +83,8 @@ for index, row in page_data.iterrows():
 
     with col6:
         click = st.button("⋮", key=f"button_{index}")  # Unique key for each button
-        html(page_data,index)
+        if click:
+            html(page_data,index)
     
     st.markdown("""---""") 
 col1, col2, col3= st.columns([40,150,20])
