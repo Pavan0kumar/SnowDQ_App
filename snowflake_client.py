@@ -5,14 +5,14 @@ import json
 
 
 # Establish Snowflake session
-@st.cache_resource
+# @st.cache_resource
 def create_session():
     return Session.builder.configs(st.secrets.connections.snowpark).create()
 
 session = create_session()
 
 # Load data table
-@st.cache_data
+# @st.cache_data
 def load_data(table_name):
     """
     Load data from snowflake table.
